@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_xyxqyi">
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout"
+        android:layout_width="@dimen/j300dp"
+        android:layout_height="@dimen/j150dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_bg_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/text_style_15_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/j15dp"
+            android:text="设备号"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/mEditText"
+            style="@style/text_style_15_black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/j40dp"
+            android:layout_marginLeft="@dimen/j50dp"
+            android:layout_marginRight="@dimen/j50dp"
+            android:background="@drawable/bg_con_02"
+            android:gravity="center_vertical"
+            android:hint="请输入设备号"
+            android:paddingLeft="@dimen/j10dp"
+            android:paddingRight="@dimen/j10dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/mTextView_dl"
+            style="@style/text_style_15_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/j15dp"
+            android:layout_marginLeft="@dimen/j50dp"
+            android:layout_marginRight="@dimen/j50dp"
+            android:background="@drawable/shape_lr"
+            android:gravity="center"
+            android:padding="@dimen/j10dp"
+            android:text="登录"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/mImageView_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mLinearLayout"
+        android:layout_marginLeft="@dimen/f20dp"
+        android:layout_marginTop="@dimen/f20dp"
+        android:layout_toRightOf="@+id/mLinearLayout"
+        android:src="@drawable/bt_guanbi_n" />
+</RelativeLayout>
+

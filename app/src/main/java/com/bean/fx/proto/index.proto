@@ -1,0 +1,152 @@
+package com.udows.fx.proto;
+option java_outer_classname = "MIndex";
+
+message MCategoryList {
+	repeated MCategory list = 1;
+}
+
+message MCategory {
+	optional string id = 1;	   //id
+	optional string title = 2;  //名称
+}
+
+message MNews {
+	optional string id = 1;	   //id
+	optional string title = 2;  //标题
+	optional string info = 3;  //描述或 发布人
+	optional string img = 4;  //图片
+	optional string content = 5;  //详情 url
+	optional string time = 6;  //时间
+}
+
+message MNewsList {
+	repeated MNews list = 1;
+}
+
+message MPhotoList {
+	repeated MPhoto list = 1;
+}
+
+message MPhoto {
+	optional string title = 1;	   //相册标题
+	optional string img = 2;  //封面
+	optional string time = 3;  //时间
+	optional int32 cnt = 4;  //照片数量
+	repeated MImg list = 5; //详情接口返回
+	optional string info = 6;  //说明 （班级）
+}
+
+message MImg {
+	optional string id = 1;	   //id
+	optional string img = 2;  //图
+	optional int32 redirectType = 3;  //0:不跳转 1:url
+	optional string redirectContent = 4;  //跳转内容 id,url等
+	optional string info = 5;  //说明
+}
+
+message MIndexClass {
+	optional string id = 1;	   //id
+	optional string today = 2;  //今日课程
+	optional string tomorrow = 3;  //明天课程
+	optional int32 isOut = 4;  //是否走班 1是 0否
+}
+
+message MIndexClassList {
+	repeated MIndexClass list = 1;
+}
+
+message MStudyCircle {
+	optional string id = 1;	   //id
+	optional string title = 2;  //标题
+	optional string catecode = 3;  //学科
+	optional string content = 4;  //内容
+	optional string teachername = 5;  //老师名字
+	optional string time = 6;  //时间
+}
+
+message MStudyCircleList {
+	repeated MStudyCircle list = 1;
+}
+
+
+
+
+/**
+@url /api/v1/mindex/mNewsList/{deviceid}/{code}	//首页新闻列表
+@name mIndexNewsList
+@param optional string code // 分类 1通知公告  2校园新闻 
+@param optional string deviceid // 设备编号
+@return MNewsList
+*/
+
+
+/**
+@url /api/v1/mindex/mClassStyleList/{deviceid}	//首页班级风采
+@name mIndexClassStyleList
+@param optional string deviceid // 设备编号
+@return MPhoto
+*/
+
+ 
+/**
+@url /api/v1/mindex/mClassList/{deviceid}	//首页课程表
+@name mIndexClassList
+@param optional string deviceid // 设备编号
+@return MIndexClassList
+*/
+
+/**
+@url /api/v1/mindex/mStudyList/{deviceid}	//首页学习园地
+@name mIndexStudyList
+@param optional string deviceid // 设备编号
+@return MStudyCircleList
+*/
+
+
+/**
+@url /api/v1/mnews/mNewsList/{deviceid}/{code}	//新闻列表
+@name mNewsList
+@param optional string code // 分类 1通知公告  2校园新闻 
+@param optional string deviceid // 设备编号
+@return MNewsList
+*/
+
+
+/**
+@url /api/v1/mnews/{id}	//新闻详情
+@name mNewsDetail
+@param optional string id //id
+@return MNews
+*/
+
+/**
+@url /api/v1/mclass/mClassStyleList/{deviceid}/{code}	//班级风采相册列表
+@name mClassStyleList
+@param optional string code // 分类 1班级风采 2班级荣誉
+@param optional string deviceid //设备编号
+@return MPhotoList
+*/
+
+/**
+@url /api/v1/mclass/mClassStyleDetail/{id}	//班级风采详情
+@name mClassStyleDetail
+@param optional string id //id
+@return MPhoto
+*/
+
+/**
+@url /api/v1/mclass/mStudyCircleList/{deviceid}/{code}	//学习园地
+@name mStudyCircleList
+@param optional string code // 学科ID
+@param optional string deviceid //设备编号
+@return MStudyCircleList
+*/
+
+
+/**
+@url /api/v1/mclass/mCategoryList/{deviceid}	//学科列表
+@name mCategoryList
+@param optional string deviceid //设备编号
+@return MCategoryList
+*/
+

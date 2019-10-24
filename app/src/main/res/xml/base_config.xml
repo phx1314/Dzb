@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Base
+    AppId="appid"
+    BaseUri="http://czww.viphk.ngrok.org"
+    TempPath="Dzb"
+    UpdateUri=""
+    UseSdcard="true">
+    <param name="ErrorUpdateUrl"></param>
+    <param name="source">1</param>
+    <param name="WebServiceNamespace">value</param>
+    <param name="WebServiceUrl">value</param>
+    <param name="DefaultFragment">com.ndtlg.dzb.frg.FrgLoading</param>
+    <!--http://czww.viphk.ngrok.org-->
+    <!--http://122.195.71.210:80-->
+    <!--http://czww.viphk.ngrok.org/ -->
+</Base>

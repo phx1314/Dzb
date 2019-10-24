@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    android:orientation="vertical">
+
+    <com.mdx.framework.widget.MImageView
+        android:id="@+id/mMImageView"
+        android:layout_width="@dimen/j91dp"
+        android:layout_height="@dimen/j51dp"
+        android:layout_marginBottom="@dimen/j10dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_k"
+        android:padding="@dimen/j1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/default_avatar" />
+</RelativeLayout>
+

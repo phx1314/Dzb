@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/mLinearLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:paddingBottom="@dimen/j5dp" android:paddingLeft="@dimen/j20dp" android:paddingRight="@dimen/j20dp">
+     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="@dimen/j5dp" android:paddingTop="@dimen/j5dp">
+          <com.mdx.framework.widget.MImageView android:id="@+id/mMImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tianqi" />
+          <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/j10dp" android:orientation="vertical">
+               <TextView android:id="@+id/mTextView1" style="@style/text_style_11_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="晴转多云" />
+               <TextView android:id="@+id/mTextView2" style="@style/text_style_11_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/j2dp" android:text="18℃  2~3级微风" />
+          </LinearLayout>
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" />
+          <TextView android:id="@+id/mTextView3" style="@style/text_style_11_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10:30" android:textSize="40sp" />
+          <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/j15dp" android:orientation="vertical">
+               <TextView android:id="@+id/mTextView4" style="@style/text_style_11_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="星期五" />
+               <TextView android:id="@+id/mTextView5" style="@style/text_style_11_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/j2dp" android:text="2017/02/08" />
+          </LinearLayout>
+     </LinearLayout>
+     <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal">
+          <RadioGroup android:id="@+id/mRadioGroup" android:layout_width="@dimen/j55dp" android:layout_height="match_parent" android:background="@drawable/shape_bg_left" android:checkedButton="@+id/mRadioButton1" android:orientation="vertical">
+               <RadioButton android:id="@+id/mRadioButton1" style="@style/text_style_13_black" android:layout_width="match_parent" android:layout_height="@dimen/j25dp" android:background="@drawable/btn_checked_top" android:button="@null" android:gravity="center" android:text="校园新闻" android:textColor="@drawable/select_text_pub" />
+               <RadioButton android:id="@+id/mRadioButton2" style="@style/text_style_13_black" android:layout_width="match_parent" android:layout_height="@dimen/j25dp" android:background="@drawable/btn_checked" android:button="@null" android:gravity="center" android:text="学校公告" android:textColor="@drawable/select_text_pub" />
+          </RadioGroup>
+          <LinearLayout android:id="@+id/mLinearLayout_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/shape_bg_right" android:orientation="vertical" />
+     </LinearLayout>
+</LinearLayout>
+

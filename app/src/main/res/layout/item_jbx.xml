@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E6E9EE"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/mLinearLayout_1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/j35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mTextView_name_1"
+                    style="@style/text_style_11_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="下遗憾"
+                    android:textColor="#4d5971" />
+
+                <TextView
+                    android:id="@+id/mTextView_name_zw"
+                    style="@style/text_style_9_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j1dp"
+                    android:background="#FD5F5E"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="班长"
+                    android:textSize="7sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mTextView_num_1"
+                style="@style/text_style_9_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j3dp"
+                android:gravity="center"
+                android:text="45456456456"
+                android:textColor="#4d5971" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mLinearLayout_2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/j35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mTextView_name_2"
+                    style="@style/text_style_11_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="下遗憾"
+                    android:textColor="#4d5971" />
+
+                <TextView
+                    android:id="@+id/mTextView_name_zw2"
+                    style="@style/text_style_9_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j1dp"
+                    android:background="#FD5F5E"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="班长"
+                    android:textSize="7sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mTextView_num_2"
+                style="@style/text_style_9_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j3dp"
+                android:gravity="center"
+                android:text="45456456456"
+                android:textColor="#4d5971" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mLinearLayout_3"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/j35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mTextView_name_3"
+                    style="@style/text_style_11_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="下遗憾"
+                    android:textColor="#4d5971" />
+
+                <TextView
+                    android:id="@+id/mTextView_name_zw3"
+                    style="@style/text_style_9_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j1dp"
+                    android:background="#FD5F5E"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="班长"
+                    android:textSize="7sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mTextView_num_3"
+                style="@style/text_style_9_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j3dp"
+                android:gravity="center"
+                android:text="45456456456"
+                android:textColor="#4d5971" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mLinearLayout_4"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/j35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mTextView_name_4"
+                    style="@style/text_style_11_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="下遗憾"
+                    android:textColor="#4d5971" />
+
+                <TextView
+                    android:id="@+id/mTextView_name_zw4"
+                    style="@style/text_style_9_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j1dp"
+                    android:background="#FD5F5E"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="班长"
+                    android:textSize="7sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mTextView_num_4"
+                style="@style/text_style_9_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j3dp"
+                android:gravity="center"
+                android:text="45456456456"
+                android:textColor="#4d5971" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mLinearLayout_5"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/j35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mTextView_name_5"
+                    style="@style/text_style_11_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="下遗憾"
+                    android:textColor="#4d5971" />
+
+                <TextView
+                    android:id="@+id/mTextView_name_zw5"
+                    style="@style/text_style_9_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j1dp"
+                    android:background="#FD5F5E"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="班长"
+                    android:textSize="7sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mTextView_num_5"
+                style="@style/text_style_9_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j3dp"
+                android:gravity="center"
+                android:text="45456456456"
+                android:textColor="#4d5971" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mLinearLayout_6"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/j35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mTextView_name_6"
+                    style="@style/text_style_11_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="下遗憾"
+                    android:textColor="#4d5971" />
+
+                <TextView
+                    android:id="@+id/mTextView_name_zw6"
+                    style="@style/text_style_9_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j1dp"
+                    android:background="#FD5F5E"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="班长"
+                    android:textSize="7sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mTextView_num_6"
+                style="@style/text_style_9_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j3dp"
+                android:gravity="center"
+                android:text="45456456456"
+                android:textColor="#4d5971" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mLinearLayout_7"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/j35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mTextView_name_7"
+                    style="@style/text_style_11_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="下遗憾"
+                    android:textColor="#4d5971" />
+
+                <TextView
+                    android:id="@+id/mTextView_name_zw7"
+                    style="@style/text_style_9_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j1dp"
+                    android:background="#FD5F5E"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="班长"
+                    android:textSize="7sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mTextView_num_7"
+                style="@style/text_style_9_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j3dp"
+                android:gravity="center"
+                android:text="45456456456"
+                android:textColor="#4d5971" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mLinearLayout_8"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/j35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mTextView_name_8"
+                    style="@style/text_style_11_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="下遗憾"
+                    android:textColor="#4d5971" />
+
+                <TextView
+                    android:id="@+id/mTextView_name_zw8"
+                    style="@style/text_style_9_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j1dp"
+                    android:background="#FD5F5E"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="班长"
+                    android:textSize="7sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mTextView_num_8"
+                style="@style/text_style_9_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j3dp"
+                android:gravity="center"
+                android:text="45456456456"
+                android:textColor="#4d5971" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#c9dcef" />
+</LinearLayout>
+

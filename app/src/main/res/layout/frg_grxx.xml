@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/j5dp">
+
+        <com.mdx.framework.widget.MImageView
+            android:id="@+id/mMImageView"
+            android:layout_width="@dimen/j15dp"
+            android:layout_height="@dimen/j15dp"
+            android:layout_marginLeft="@dimen/j15dp"
+            android:src="@drawable/morentouxiang_n" />
+
+        <TextView
+            android:id="@+id/mTextView_name"
+            style="@style/text_style_13_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j2dp"
+            android:text="夏伟"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mTextView_cz"
+            style="@style/text_style_11_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j3dp"
+            android:text="（30s内无操作将回到首页）" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/mTextView_zx"
+            style="@style/text_style_11_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/bt_guanji_n"
+            android:drawablePadding="@dimen/j2dp"
+            android:gravity="center_vertical"
+            android:text="立即注销" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/j15dp"
+        android:layout_marginTop="@dimen/j15dp"
+        android:background="@drawable/bg_gerenzhongxin"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/text_style_15_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/j15dp"
+            android:text="个人信息"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/j25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mTextView_xh"
+                style="@style/text_style_13_black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j50dp"
+                android:layout_weight="1"
+                android:textColor="#353d4a" />
+
+            <TextView
+                android:id="@+id/mTextView_time"
+                style="@style/text_style_13_black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j50dp"
+                android:layout_weight="1"
+                android:textColor="#353d4a" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/j25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mTextView_sex"
+                style="@style/text_style_13_black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j50dp"
+                android:layout_weight="1"
+                android:textColor="#353d4a" />
+
+            <TextView
+                android:id="@+id/mTextView_phone"
+                style="@style/text_style_13_black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j50dp"
+                android:layout_weight="1"
+                android:textColor="#353d4a" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/j25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mTextView_zw"
+                style="@style/text_style_13_black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j50dp"
+                android:layout_weight="1"
+                android:textColor="#353d4a" />
+
+            <TextView
+                android:id="@+id/mTextView_jg"
+                style="@style/text_style_13_black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j50dp"
+                android:layout_weight="1"
+                android:textColor="#353d4a" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/j25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mTextView_bm"
+                style="@style/text_style_13_black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j50dp"
+                android:layout_weight="1"
+                android:textColor="#353d4a" />
+
+            <TextView
+                android:id="@+id/mTextView_mz"
+                style="@style/text_style_13_black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j50dp"
+                android:layout_weight="1"
+                android:textColor="#353d4a" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

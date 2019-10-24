@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/mLinearLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@color/bg_pub" android:orientation="vertical" android:padding="@dimen/j20dp">
+     <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/j25dp" android:background="@drawable/shape_gradient" android:orientation="horizontal">
+          <TextView style="@style/text_style_13_white" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:text="节次" />
+          <TextView style="@style/text_style_13_white" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:text="星期一" />
+          <TextView style="@style/text_style_13_white" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:text="星期二" />
+          <TextView style="@style/text_style_13_white" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:text="星期三" />
+          <TextView style="@style/text_style_13_white" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:text="星期四" />
+          <TextView style="@style/text_style_13_white" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:text="星期五" />
+          <TextView style="@style/text_style_13_white" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:text="星期六" />
+          <TextView style="@style/text_style_13_white" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:text="星期日" />
+     </LinearLayout>
+     <com.ab.view.pullview.AbPullListView android:id="@+id/mAbPullListView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:background="@drawable/shape_bg_da_bottom" android:cacheColorHint="#00000000" android:divider="#c9dcef" android:dividerHeight="1px" android:fadingEdge="none" android:listSelector="#00000000" />
+</LinearLayout>
+

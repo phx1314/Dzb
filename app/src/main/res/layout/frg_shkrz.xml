@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/bg_xyxqyi">
+     <LinearLayout android:id="@+id/mLinearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:background="@drawable/bg_shuaka" android:gravity="center_horizontal" android:orientation="vertical">
+          <TextView style="@style/text_style_15_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/j15dp" android:text="请刷卡认证" android:textStyle="bold" />
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" />
+          <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/j15dp" android:orientation="horizontal">
+               <TextView android:id="@+id/mTextView_count" style="@style/text_style_15_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10" android:textColor="#ff584e" android:textStyle="bold" />
+               <TextView style="@style/text_style_9_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" s 后自动退出" android:textColor="#5e6888" />
+          </LinearLayout>
+     </LinearLayout>
+     <ImageView android:id="@+id/mImageView_del" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/mLinearLayout" android:layout_marginLeft="@dimen/f20dp" android:layout_marginTop="@dimen/f15dp" android:layout_toRightOf="@+id/mLinearLayout" android:src="@drawable/bt_guanbi_n" />
+</RelativeLayout>
+

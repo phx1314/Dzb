@@ -1,0 +1,153 @@
+package com.udows.common.proto;
+option java_outer_classname = "MCommon";
+
+message MRet {
+	optional int32 code = 1; //返回类型
+	optional string msg = 2; //返回值
+}
+
+message MFile {
+	required bytes file = 1;	//文件
+	optional string fileName = 2; //文件名
+}
+
+message MFileList {
+	repeated MFile file = 1;
+}
+
+message MSysParams {
+	optional string param1 = 1;	   	//预留类
+	optional string param2 = 2;  	//
+	optional string param3 = 3;  	//
+	optional string param4 = 4;  	//
+	optional string param5 = 5;		//
+	optional string param6 = 6;		//
+	optional string param7 = 7;		//
+	optional string param8 = 8;		//
+	optional string param9 = 9;		//
+	optional string param10 = 10;	//
+}
+
+message MUserInfo {
+	optional string id = 1;	//id
+	optional string code = 2; //学号
+	optional string birthday = 3; //生日
+	optional string sex = 4; //性别
+	optional string phone = 5; //手机号
+	optional string degree = 6; //职务
+	optional string address = 7; //籍贯
+	optional string department = 8; //班级 部门
+	optional string nations = 9; //民族
+}
+
+message MTeacher {
+	optional string id = 1;	//id
+	optional string name = 2; //姓名
+	optional string course = 3; //课程
+	optional int32 isLead = 4; //是否班主任
+}
+
+message MStudent {
+	optional string id = 1;	//id
+	optional string name = 2; //姓名
+	optional string degree = 3; //职务
+	optional string code = 4; //学号
+}
+
+
+message MClassInfo {
+	optional string id = 1;	//id
+	optional string name = 2; //班级名字
+	optional string leaderTeacher = 3; //班主任
+	repeated MTeacher  teachers = 4; //任课老师
+	repeated MStudent students = 5; //学生花名册
+}
+
+
+message MWeekCourse {
+	optional string id = 1;	//id
+	optional string name = 2; //课程
+	optional string teacher = 3; //老师
+	optional string week = 4; //
+}
+
+message MSection {
+	optional string id = 1;	//id
+	optional string time = 2; //时间节点
+	repeated MWeekCourse  list = 3; //课程列表
+}
+
+message MSectionList {
+	repeated MSection list = 1;
+}
+
+
+
+message MItem {
+	optional string id = 1;	//id
+	optional string time = 2; //时间节点
+	optional string ifno = 3; //项目名字
+}
+
+message MItemList {
+	repeated MItem list = 1;	//评比项目
+}
+
+
+message MClassSimple {
+	optional string id = 1;	//id
+	optional string name = 2; //班级名字
+	optional string leaderTeacher = 3; //班主任
+	optional int32 rank = 4; //排名
+	optional int32 isSelf = 5; //是否本班 1是
+	optional int32 total = 6; //班级总分
+}
+
+message MMoralScoreMap {
+	repeated MItem items = 1;	//评比项目
+	repeated MClassSimple cls = 2;	//班级列表
+	optional map scoreMap = 3;	//成绩map key是 项目id+'_'+班级id
+	optional string time = 4; //评比时间
+}
+
+ 
+
+/**
+@url /api/v1/mclass/{deviceid}	//此设备班级信息
+@name mClassInfo	//此设备班级信息
+@param optional string deviceid //设备编号
+@return MClassInfo
+*/
+
+
+/**
+@url /api/v1/mclass/{deviceid}/mIndexClassInfo	//首页班级信息
+@name mIndexClassInfo
+@param optional string deviceid //设备编号
+@return MClassInfo
+*/
+
+
+/**
+@url /api/v1/mclass/{deviceid}/mSectionList	//课程节次列表
+@name mSectionList 
+@param optional string deviceid //设备编号
+@return MSectionList
+*/
+
+/**
+@url /api/v1/mUserInfo/{userid} //个人信息 
+@name mUserInfo 
+@param required string userid //用户id 读卡获取
+@return MUserInfo
+*/
+
+
+
+/**
+@url /api/v1/mclass/mmoral/{deviceid}/{time} //德育评比
+@name mUserInfo 
+@param required string deviceid //设备编号
+@param required string time //评比时间 （未传则展示最近一次 格式2018-01-01）
+@return MMoralScoreMap
+*/

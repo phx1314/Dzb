@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:padding="@dimen/j8dp">
+     <TextView android:id="@+id/mTextView_name" style="@style/text_style_13_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="语文作业" android:textStyle="bold" />
+     <TextView android:id="@+id/mTextView_ls" style="@style/text_style_11_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/j3dp" android:layout_marginTop="@dimen/j3dp" android:text="老师：阿敏   发布时间：878798" android:textColor="#708ead" />
+     <TextView android:id="@+id/mTextView_content" style="@style/text_style_11_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/j3dp" android:text="1、完成课后作业1~8" android:textColor="#4d5971" />
+</LinearLayout>
+

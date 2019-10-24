@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+    defaultConfig {
+        applicationId "com.ntdlg.dzb"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0.1"
+        multiDexEnabled = true
+    }
+    signingConfigs {
+        debug {
+            storeFile file("F:\\小工具\\小工具\\ntdlg.keystore")
+            storePassword "ntdlg123"
+            keyAlias "20"
+            keyPassword "ntdlg123"
+        }
+    }
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile project(':andBase')
+}
